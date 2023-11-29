@@ -85,6 +85,11 @@
     padding: 1rem;
     border-radius: 1rem;
 }
+.pokemon img:hover{
+    overflow-y:hidden;
+    width: 50%;
+    height:50%;
+}
 
 .pokemon .number {
     color: #000;
@@ -125,6 +130,11 @@
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+}
+.pokemon .detail img:hover{
+    width: 300%;
+    height: 300%;
+
 }
 
 .pagination {
